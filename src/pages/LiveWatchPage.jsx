@@ -14,7 +14,7 @@ export default function LiveWatchPage() {
 
     useSeo(
         stream
-            ? { title: `${stream.title} · Live`, description: stream.description || 'Watch this live broadcast on PulseNews.', noIndex: true }
+            ? { title: `${stream.title} · Live`, description: stream.description || 'Watch this live broadcast on Vtime News.', noIndex: true }
             : null
     );
 

@@ -7,7 +7,7 @@ import { Notice, Spinner } from '@/components/ui/States';
 import logo from '../assets/logo.png';
 
 export default function ResetPasswordPage() {
-    useSeo({ title: 'Choose a new password', description: 'Set a new PulseNews password.', noIndex: true });
+    useSeo({ title: 'Choose a new password', description: 'Set a new Vtime News password.', noIndex: true });
 
     const [searchParams] = useSearchParams();
     const navigate = useNavigate();
@@ -68,7 +68,7 @@ export default function ResetPasswordPage() {
                         <ArrowLeft size={16} /> Back to sign in
                     </Link>
                     <div className="flex items-center justify-center mx-auto mb-4">
-                        <img src={logo} alt="PulseNews" className="h-18 sm:h-22 w-auto object-contain" />
+                        <img src={logo} alt="Vtime News" className="h-18 sm:h-22 w-auto object-contain" />
                     </div>
                     <h1 className="text-2xl font-bold text-text-primary dark:text-text-inverse font-display">
                         Choose a new password

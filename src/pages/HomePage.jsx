@@ -13,7 +13,7 @@ export default function HomePage() {
     useSeo({
         path: '/',
         description:
-            'Breaking news, in-depth analysis and trending stories from around the world, checked by the PulseNews desk.',
+            'Breaking news, in-depth analysis and trending stories from around the world, checked by the Vtime News desk.',
     });
 
     if (loading && !data) {

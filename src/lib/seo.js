@@ -7,13 +7,13 @@
  * it is served. See backend/app/Http/Controllers/SpaController.php.
  */
 
-export const SITE_NAME = 'PulseNews';
+export const SITE_NAME = 'Vtime News';
 export const SITE_URL =
     import.meta.env.VITE_SITE_URL?.replace(/\/$/, '') ||
     (typeof window !== 'undefined' ? window.location.origin : '');
 
 const DEFAULT_DESCRIPTION =
-    'Breaking news, in-depth analysis and trending stories from around the world, checked by the PulseNews desk.';
+    'Breaking news, in-depth analysis and trending stories from around the world, checked by the Vtime News desk.';
 
 /** Tags we own, so a route change can clear the previous page's set. */
 const MANAGED = 'data-pulsenews-seo';

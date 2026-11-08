@@ -31,7 +31,7 @@ export default function SearchPage() {
     // Search result pages are thin content — keep them out of the index.
     useSeo({
         title: query ? `Search: ${query}` : 'Search',
-        description: 'Search PulseNews for articles, topics and trending stories.',
+        description: 'Search Vtime News for articles, topics and trending stories.',
         path: '/search',
         noIndex: true,
     });
@@ -80,7 +80,7 @@ export default function SearchPage() {
             {!query ? (
                 <EmptyState
                     icon={Search}
-                    title="Search PulseNews"
+                    title="Search Vtime News"
                     message="Find articles, topics, and trending stories."
                 />
             ) : loading ? (

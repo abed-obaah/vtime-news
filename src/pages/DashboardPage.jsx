@@ -12,7 +12,7 @@ export default function DashboardPage() {
     const { user, updateProfile } = useAuth();
     const [activeTab, setActiveTab] = useState('saved');
 
-    useSeo({ title: 'Your dashboard', description: 'Your saved and liked PulseNews stories.', noIndex: true });
+    useSeo({ title: 'Your dashboard', description: 'Your saved and liked Vtime News stories.', noIndex: true });
 
     const savedQuery = useApi(() => publicApi.bookmarks(), [], { initialData: [] });
     const likedQuery = useApi(() => publicApi.likes(), [], { initialData: [] });

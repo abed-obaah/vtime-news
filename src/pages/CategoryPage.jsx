@@ -37,7 +37,7 @@ export default function CategoryPage() {
                   title: `${category.name} News`,
                   description:
                       category.description ||
-                      `The latest ${category.name} stories, reporting and analysis from PulseNews.`,
+                      `The latest ${category.name} stories, reporting and analysis from Vtime News.`,
                   path: `/category/${category.slug}`,
                   breadcrumbs: [
                       { name: 'Home', path: '/' },

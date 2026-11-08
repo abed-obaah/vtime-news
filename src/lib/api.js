@@ -82,7 +82,7 @@ export function normalizeError(error) {
             ? 'The server took too long to respond. Please try again.'
             : null) ||
         (!response
-            ? 'Cannot reach the PulseNews server. Is the backend running?'
+            ? 'Cannot reach the Vtime News server. Is the backend running?'
             : 'Something went wrong. Please try again.');
 
     if (response?.status === 403 && !data?.message) {

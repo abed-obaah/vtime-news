@@ -17,7 +17,7 @@ export default function TagPage() {
 
     useSeo({
         title: `#${tag}`,
-        description: `Every PulseNews story tagged #${tag}.`,
+        description: `Every Vtime News story tagged #${tag}.`,
         path: `/tag/${tag}`,
         breadcrumbs: [
             { name: 'Home', path: '/' },

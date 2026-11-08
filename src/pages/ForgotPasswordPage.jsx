@@ -7,7 +7,7 @@ import { Notice, Spinner } from '@/components/ui/States';
 import logo from '../assets/logo.png';
 
 export default function ForgotPasswordPage() {
-    useSeo({ title: 'Reset your password', description: 'Request a PulseNews password reset link.', noIndex: true });
+    useSeo({ title: 'Reset your password', description: 'Request a Vtime News password reset link.', noIndex: true });
 
     const [email, setEmail] = useState('');
     const [sending, setSending] = useState(false);
@@ -39,7 +39,7 @@ export default function ForgotPasswordPage() {
                         <ArrowLeft size={16} /> Back to sign in
                     </Link>
                     <div className="flex items-center justify-center mx-auto mb-4">
-                        <img src={logo} alt="PulseNews" className="h-18 sm:h-22 w-auto object-contain" />
+                        <img src={logo} alt="Vtime News" className="h-18 sm:h-22 w-auto object-contain" />
                     </div>
                     <h1 className="text-2xl font-bold text-text-primary dark:text-text-inverse font-display">
                         Forgot your password?

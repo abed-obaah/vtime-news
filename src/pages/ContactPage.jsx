@@ -23,7 +23,7 @@ export default function ContactPage() {
     });
     useSeo({
         title: 'Contact the newsroom',
-        description: 'Send PulseNews a tip, report an error, or tell us what you think.',
+        description: 'Send Vtime News a tip, report an error, or tell us what you think.',
         path: '/contact',
         breadcrumbs: [
             { name: 'Home', path: '/' },

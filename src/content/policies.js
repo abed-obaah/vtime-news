@@ -12,8 +12,8 @@
  */
 
 export const COMPANY = {
-    name: 'PulseNews',
-    legalName: 'PulseNews Media',           // ← your registered entity
+    name: 'Vtime News',
+    legalName: 'Vtime News Media',           // ← your registered entity
     address: 'Add your registered address', // ← required in most jurisdictions
     email: 'hello@pulsenews.local',         // ← a monitored inbox
     privacyEmail: 'privacy@pulsenews.local',
@@ -24,7 +24,7 @@ const LAST_UPDATED = 'September 2026';
 export const POLICIES = {
     about: {
         slug: 'about',
-        title: 'About PulseNews',
+        title: 'About Vtime News',
         description: 'Who we are, how we work, and where our stories come from.',
         updated: null,
         body: [
@@ -68,7 +68,7 @@ export const POLICIES = {
     privacy: {
         slug: 'privacy',
         title: 'Privacy Policy',
-        description: 'What data PulseNews collects, why, and what you can do about it.',
+        description: 'What data Vtime News collects, why, and what you can do about it.',
         updated: LAST_UPDATED,
         legal: true,
         body: [
@@ -110,7 +110,7 @@ export const POLICIES = {
     terms: {
         slug: 'terms',
         title: 'Terms of Service',
-        description: 'The terms you agree to when you use PulseNews.',
+        description: 'The terms you agree to when you use Vtime News.',
         updated: LAST_UPDATED,
         legal: true,
         body: [
@@ -141,7 +141,7 @@ export const POLICIES = {
     cookies: {
         slug: 'cookies',
         title: 'Cookie Policy',
-        description: 'What PulseNews stores in your browser, and why.',
+        description: 'What Vtime News stores in your browser, and why.',
         updated: LAST_UPDATED,
         legal: true,
         body: [
@@ -166,7 +166,7 @@ export const POLICIES = {
     accessibility: {
         slug: 'accessibility',
         title: 'Accessibility',
-        description: 'How PulseNews works towards being usable by everyone.',
+        description: 'How Vtime News works towards being usable by everyone.',
         updated: LAST_UPDATED,
         legal: true,
         body: [

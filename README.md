@@ -1,4 +1,4 @@
-# PulseNews
+# Vtime News
 
 A news site with an editorial newsroom behind it.
 
@@ -77,7 +77,7 @@ MAIL_USERNAME=your-username
 MAIL_PASSWORD=your-password
 MAIL_SCHEME=tls
 MAIL_FROM_ADDRESS="newsroom@yourdomain.com"
-MAIL_FROM_NAME="PulseNews"
+MAIL_FROM_NAME="Vtime News"
 ```
 
 `SITE_URL` must also be your real domain — password-reset links are built from it.
@@ -97,7 +97,7 @@ To keep it running by itself, add one cron entry — Laravel's scheduler runs
 `rss:fetch` every 15 minutes, and each feed respects its own interval:
 
 ```cron
-* * * * * cd /path/to/PulseNews-v2-main/backend && php artisan schedule:run >> /dev/null 2>&1
+* * * * * cd /path/to/Vtime News-v2-main/backend && php artisan schedule:run >> /dev/null 2>&1
 ```
 
 ---

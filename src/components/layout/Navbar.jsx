@@ -62,7 +62,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between py-2.5 sm:py-3 min-h-[72px]">
                     {/* Logo */}
                     <Link to="/" className="flex items-center shrink-0 py-1 transition-opacity hover:opacity-90">
-                       <img src={logo} alt="PulseNews Logo" className="h-14 sm:h-16 lg:h-18 w-auto object-contain" />
+                       <img src={logo} alt="Vtime News Logo" className="h-14 sm:h-16 lg:h-18 w-auto object-contain" />
                     </Link>
 
                     {/* Desktop Nav Links */}

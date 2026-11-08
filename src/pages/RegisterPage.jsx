@@ -9,7 +9,7 @@ export default function RegisterPage() {
     const { register, loading } = useAuth();
     const navigate = useNavigate();
 
-    useSeo({ title: 'Create an account', description: 'Create a PulseNews account.', noIndex: true });
+    useSeo({ title: 'Create an account', description: 'Create a Vtime News account.', noIndex: true });
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -41,13 +41,13 @@ export default function RegisterPage() {
             <div className="w-full max-w-md">
                 <div className="text-center mb-8">
                     <Link to="/" className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-primary mb-6 transition-colors">
-                        <ArrowLeft size={16} /> Back to PulseNews
+                        <ArrowLeft size={16} /> Back to Vtime News
                     </Link>
                     <div className="flex items-center justify-center mx-auto mb-4">
-                        <img src={logo} alt="PulseNews Logo" className="h-18 sm:h-22 w-auto object-contain" />
+                        <img src={logo} alt="Vtime News Logo" className="h-18 sm:h-22 w-auto object-contain" />
                     </div>
                     <h1 className="text-2xl font-bold text-text-primary dark:text-text-inverse font-display">Create your account</h1>
-                    <p className="text-text-muted text-sm mt-1">Join PulseNews to save and engage with stories</p>
+                    <p className="text-text-muted text-sm mt-1">Join Vtime News to save and engage with stories</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="bg-white dark:bg-surface-dark-alt rounded-2xl border border-border dark:border-border-dark p-8 shadow-lg">

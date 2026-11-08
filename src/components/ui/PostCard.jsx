@@ -5,7 +5,7 @@ import { formatRelativeDate } from '@/utils/helpers';
 const FALLBACK_IMAGE =
     'data:image/svg+xml;charset=UTF-8,' +
     encodeURIComponent(
-        `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500" fill="#E2E8F0"/><text x="400" y="260" font-family="system-ui, sans-serif" font-size="28" fill="#94A3B8" text-anchor="middle">PulseNews</text></svg>`
+        `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500" fill="#E2E8F0"/><text x="400" y="260" font-family="system-ui, sans-serif" font-size="28" fill="#94A3B8" text-anchor="middle">Vtime News</text></svg>`
     );
 
 /** Feed images are third-party and go missing — swap in a placeholder. */
