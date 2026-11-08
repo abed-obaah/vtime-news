@@ -390,7 +390,7 @@ export default function ArticlePage() {
             {relatedPosts.length > 0 && (
                 <section className="mt-16 pt-10 border-t border-border dark:border-border-dark">
                     <h2 className="text-2xl font-bold text-text-primary dark:text-text-inverse font-display mb-6">
-                        More From {post.categoryName || 'Vtime News'}
+                        More From {post.categoryName || 'PulseNews'}
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {relatedPosts.map((p) => (

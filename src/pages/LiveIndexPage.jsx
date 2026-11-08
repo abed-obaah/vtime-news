@@ -16,7 +16,7 @@ export default function LiveIndexPage() {
 
     useSeo({
         title: 'Live now',
-        description: 'Watch breaking news reported live by Vtime News readers and editors.',
+        description: 'Watch breaking news reported live by PulseNews readers and editors.',
     });
 
     // Who's live changes constantly — keep the rail fresh without a hard reload.
@@ -36,7 +36,7 @@ export default function LiveIndexPage() {
                         Live Now
                     </h1>
                     <p className="text-text-muted text-sm mt-1">
-                        Breaking news, reported live by the Vtime News community.
+                        Breaking news, reported live by the PulseNews community.
                     </p>
                 </div>
                 <Link

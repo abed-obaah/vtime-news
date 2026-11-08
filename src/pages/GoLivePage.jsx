@@ -11,7 +11,7 @@ export default function GoLivePage() {
     const navigate = useNavigate();
     const { categories } = useSite();
 
-    useSeo({ title: 'Go live', description: 'Report breaking news live to Vtime News readers.', noIndex: true });
+    useSeo({ title: 'Go live', description: 'Report breaking news live to PulseNews readers.', noIndex: true });
 
     const [form, setForm] = useState({ title: '', description: '', category_id: '' });
     const [stage, setStage] = useState('setup'); // setup -> connecting -> live -> ended

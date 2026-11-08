@@ -41,7 +41,7 @@ export default function Footer() {
             await publicApi.sendFeedback({
                 type: 'feedback',
                 subject: 'Newsletter signup',
-                message: `${trimmed} asked to receive the Vtime News briefing.`,
+                message: `${trimmed} asked to receive the PulseNews briefing.`,
                 email: trimmed,
             });
             setEmail('');
@@ -97,7 +97,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="flex flex-col items-start justify-start">
                         <Link to="/" className="inline-block transition-opacity hover:opacity-90">
-                            <img src={logo} alt="Vtime News Logo" className="h-16 lg:h-20 w-auto object-contain mb-4" />
+                            <img src={logo} alt="PulseNews Logo" className="h-16 lg:h-20 w-auto object-contain mb-4" />
                         </Link>
                         <p className="text-text-muted text-sm leading-relaxed mb-4">
                             Your trusted source for breaking news, in-depth analysis, and trending stories from around the world. Delivering accurate, timely journalism 24/7.
@@ -166,12 +166,12 @@ export default function Footer() {
             {/* Bottom Bar */}
             <div className="border-t border-border-dark">
                 <div className="max-w-[1400px] mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-                    <p className="text-text-muted text-xs">© {year} Vtime News. All rights reserved.</p>
+                    <p className="text-text-muted text-xs">© {year} PulseNews. All rights reserved.</p>
                     <div className="flex items-center gap-6">
                         <a
                             href="/feed.xml"
                             className="text-text-muted text-xs hover:text-primary transition-colors"
-                            title="Subscribe to the Vtime News RSS feed"
+                            title="Subscribe to the PulseNews RSS feed"
                         >
                             RSS
                         </a>

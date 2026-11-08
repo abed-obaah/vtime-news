@@ -229,7 +229,7 @@ export default function AdminFeeds() {
                 <EmptyState
                     icon={Rss}
                     title="No feeds configured"
-                    message="Add an RSS or Atom URL and Vtime News will start pulling stories into the moderation queue."
+                    message="Add an RSS or Atom URL and PulseNews will start pulling stories into the moderation queue."
                 />
             ) : (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">

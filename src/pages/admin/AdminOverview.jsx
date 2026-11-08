@@ -31,7 +31,7 @@ export default function AdminOverview() {
                 <h1 className="text-2xl font-bold text-text-primary dark:text-text-inverse font-display">
                     Dashboard Overview
                 </h1>
-                <p className="text-text-muted text-sm mt-1">Here&apos;s what&apos;s happening across Vtime News.</p>
+                <p className="text-text-muted text-sm mt-1">Here&apos;s what&apos;s happening across PulseNews.</p>
             </div>
 
             {/* Stats */}

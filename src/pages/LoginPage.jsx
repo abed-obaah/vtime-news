@@ -9,7 +9,7 @@ export default function LoginPage() {
     const { login, loading } = useAuth();
     const navigate = useNavigate();
 
-    useSeo({ title: 'Sign in', description: 'Sign in to your Vtime News account.', noIndex: true });
+    useSeo({ title: 'Sign in', description: 'Sign in to your PulseNews account.', noIndex: true });
     const location = useLocation();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -38,13 +38,13 @@ export default function LoginPage() {
             <div className="w-full max-w-md">
                 <div className="mb-8">
                     <Link to="/" className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-primary mb-6 transition-colors">
-                        <ArrowLeft size={16} /> Back to Vtime News
+                        <ArrowLeft size={16} /> Back to PulseNews
                     </Link>
                     <div className="flex items-center justify-center mx-auto mb-4">
-                        <img src={logo} alt="Vtime News Logo" className="h-18 sm:h-22 w-auto object-contain" />
+                        <img src={logo} alt="PulseNews Logo" className="h-18 sm:h-22 w-auto object-contain" />
                     </div>
                     <h1 className="text-2xl font-bold text-text-primary dark:text-text-inverse font-display">Welcome back</h1>
-                    <p className="text-text-muted text-sm mt-1">Sign in to your Vtime News account</p>
+                    <p className="text-text-muted text-sm mt-1">Sign in to your PulseNews account</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="bg-white dark:bg-surface-dark-alt rounded-2xl border border-border dark:border-border-dark p-8 shadow-lg">

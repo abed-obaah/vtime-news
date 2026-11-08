@@ -245,7 +245,7 @@ export default function PostForm({ post = null, onSubmit, submitting, error, not
                                 type="text"
                                 value={form.author}
                                 onChange={set('author')}
-                                placeholder="Vtime News"
+                                placeholder="PulseNews"
                                 maxLength={120}
                                 className="w-full p-3 bg-surface-alt dark:bg-surface-dark border border-border dark:border-border-dark rounded-xl text-sm text-text-primary dark:text-text-inverse focus:outline-none focus:ring-2 focus:ring-primary/30"
                             />

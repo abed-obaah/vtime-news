@@ -55,7 +55,7 @@ export default function AdminLayout() {
                 <div className="h-16 flex items-center justify-between px-4 border-b border-border dark:border-border-dark shrink-0">
                     {!collapsed && (
                         <Link to="/" className="flex items-center gap-2 min-w-0">
-                            <img src={logo} alt="Vtime News" className="h-9 w-auto object-contain shrink-0" />
+                            <img src={logo} alt="PulseNews" className="h-9 w-auto object-contain shrink-0" />
                             <span className="text-[11px] font-bold uppercase tracking-wider text-text-muted truncate">Newsroom</span>
                         </Link>
                     )}

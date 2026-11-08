@@ -26,10 +26,3 @@ dist-ssr
 # Local environment
 .env
 backend/.env
-
-# This repo holds the web front-end only
-backend/
-mobile/
-AppleNews-main/
-.claude/
-*.zip
