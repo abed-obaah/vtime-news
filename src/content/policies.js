@@ -15,11 +15,11 @@ export const COMPANY = {
     name: 'Vtime News',
     legalName: 'Vtime News Media',           // ← your registered entity
     address: 'Add your registered address', // ← required in most jurisdictions
-    email: 'hello@pulsenews.local',         // ← a monitored inbox
-    privacyEmail: 'privacy@pulsenews.local',
+    email: 'hello@vtimenews.com',         // ← a monitored inbox
+    privacyEmail: 'privacy@vtimenews.com',
 };
 
-const LAST_UPDATED = 'September 2026';
+const LAST_UPDATED = 'November 2026';
 
 export const POLICIES = {
     about: {
@@ -79,9 +79,16 @@ export const POLICIES = {
                 'Things you do on the site — articles you save, like or rate, and comments you post.',
                 'Technical data — your IP address and browser user-agent, which we hash to count one page view per reader per article per day.',
                 'Messages you send us — anything you submit through the contact form, including your email address so we can reply.',
+                'Advertising data — our advertising partners, including Google, collect information through cookies and similar technologies when ads are shown. See "Advertising" below.',
             ]},
             { h: 'What we do not do' },
-            { p: 'We do not sell your personal data. We do not run third-party advertising or tracking networks — advertising on this site is served by us, from our own systems, and is not personalised using your browsing history.' },
+            { p: 'We do not sell your account details, comments or messages to anyone.' },
+            { h: 'Advertising' },
+            { p: 'We use Google AdSense, and may use other third-party advertising networks, to show ads on this site. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website and other websites.' },
+            { p: 'Google\'s use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and/or other sites on the Internet. You can read how Google uses this information at https://policies.google.com/technologies/partner-sites.' },
+            { p: 'You can opt out of personalised advertising by visiting Google Ads Settings at https://adssettings.google.com. You can also opt out of some third-party vendors\' use of cookies for personalised advertising at https://www.aboutads.info/choices or, in Europe, https://www.youronlinechoices.eu.' },
+            { p: 'If you opt out, you will still see ads, but they will not be personalised. Where the law requires it, we ask for your consent before personalised ads or advertising cookies are used.' },
+            { p: 'Some ads on this site are sold and served directly by us from our own systems. Those ads are not personalised using your browsing history.' },
             { h: 'Why we hold it' },
             { list: [
                 'To run your account and show you what you saved or liked.',
@@ -90,7 +97,7 @@ export const POLICIES = {
                 'To reply when you contact us.',
             ]},
             { h: 'Cookies and local storage' },
-            { p: 'We use your browser\'s local storage to keep you signed in, remember your light or dark theme choice, and remember that you dismissed a promotion. See the Cookie Policy for detail.' },
+            { p: 'We use your browser\'s local storage to keep you signed in, remember your light or dark theme choice, and remember that you dismissed a promotion. Our advertising partners, including Google, also set cookies to serve and measure ads. See the Cookie Policy for detail.' },
             { h: 'How long we keep it' },
             { p: 'Account data is kept while your account is open. Page-view records are aggregated for analytics. Messages sent to the newsroom are kept while we deal with them and for a reasonable period afterwards.' },
             { h: 'Your rights' },
@@ -145,7 +152,7 @@ export const POLICIES = {
         updated: LAST_UPDATED,
         legal: true,
         body: [
-            { p: 'This page explains what we store in your browser. We keep it to a minimum and we do not use third-party advertising or tracking cookies.' },
+            { p: 'This page explains what we, and the advertising partners we work with, store in your browser.' },
             { h: 'What we store' },
             { list: [
                 'Sign-in token — keeps you signed in between visits. Removed when you sign out.',
@@ -154,10 +161,14 @@ export const POLICIES = {
             ]},
             { h: 'How it is stored' },
             { p: 'These are held in your browser\'s local storage rather than as tracking cookies. They stay on your device and are not shared with anyone else.' },
+            { h: 'Advertising cookies' },
+            { p: 'We use Google AdSense, and may use other third-party advertising networks, to show ads. These third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website and other websites, to limit how often you see an ad, and to measure how ads perform.' },
+            { p: 'Google\'s use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and/or other sites on the Internet. Learn more at https://policies.google.com/technologies/ads.' },
+            { p: 'You can opt out of personalised advertising at https://adssettings.google.com, and opt out of some other vendors\' cookies at https://www.aboutads.info/choices or https://www.youronlinechoices.eu. Where the law requires it, we ask for your consent before advertising cookies are used.' },
             { h: 'Analytics' },
             { p: 'We count page views ourselves. To avoid counting the same reader twice in a day, we combine your IP address and browser user-agent into a one-way hash. That hash cannot be reversed to identify you, and we do not use a third-party analytics service.' },
             { h: 'Turning it off' },
-            { p: 'You can clear site data or block storage in your browser settings at any time. If you do, you will be signed out and your theme choice will be forgotten, but you can still read the site.' },
+            { p: 'You can clear site data or block cookies and storage in your browser settings at any time. If you do, you will be signed out and your theme choice will be forgotten, but you can still read the site. Blocking advertising cookies does not remove ads, but the ads you see will not be personalised.' },
             { h: 'Contact' },
             { p: `Questions: ${COMPANY.privacyEmail}.` },
         ],
