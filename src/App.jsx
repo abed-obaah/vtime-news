@@ -3,8 +3,6 @@ import { AuthProvider } from '@/contexts/AuthContext';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { SiteProvider } from '@/contexts/SiteContext';
 import ScrollToTop from '@/components/ScrollToTop';
-import AdPopup from '@/components/ui/AdPopup';
-import PopunderAd from '@/components/ui/PopunderAd';
 import { RequireAdmin, RequireAuth, RedirectIfAuthenticated } from '@/components/RouteGuards';
 
 // Layout
@@ -55,9 +53,6 @@ function PublicLayout() {
                 <Outlet />
             </main>
             <Footer />
-            {/* The "popup" and "popunder" placements live here so they can fire on any reader page. */}
-            <AdPopup />
-            <PopunderAd />
         </div>
     );
 }
